@@ -2,16 +2,18 @@
 // Day 1: Variables
 import UIKit
 
+//You make variables using var and constants using let. It’s preferable to use constants as often as possible.
+
 //This is called type inference
 var greeting = "Hello, playground"
 var age = 34
 var p = 8_000_000
 var doub = 3.123
 let b = true
-
+//Strings start and end with double quotes, but if you want them to run across multiple lines you should use three sets of double quotes.
 var str = """
     esse texto
-    é de 'multiplas
+    é de 'multiplas'
     linhas
     """
 str = """
